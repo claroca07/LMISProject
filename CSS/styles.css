@@ -1,8 +1,13 @@
 :root{
   --cor-fundo:rgb(244, 237, 237);
   --cor-fundo-verde:rgb(28, 59, 46);
+  --cor-fundo-verde-claro:rgb(65, 101, 75);
   --cor-letra: rgb(16, 15, 15);
   --cor-letra-branca: rgb(237, 225, 225);
+}
+
+h1, h2, h3, h4, h5, h5, p{
+  font-family: "Nunito", sans-serif;
 }
 * {
     margin: 0;
@@ -44,26 +49,26 @@
   }
   
   .fullpage {
-    height: 100vh; /* Cada seção ocupa 100% da altura da tela */
-    scroll-snap-type: y mandatory; /* Habilita o scrolling snap */
-    overflow-y: scroll; /* Adiciona rolagem vertical */
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
   }
   
   .about-section {
     color: var(--cor-letra-branca);
-    display: flex; /* Garante que a div de conteúdo fique centralizada */
-    align-items: center; /* Alinha verticalmente ao centro */
-    justify-content: center; /* Alinha horizontalmente ao centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
 .content h2{
     font-size: 50px;
+    margin-left: 2rem;
     margin-top: -10%;
 }
 
   .content p{
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin: 3rem;
     font-size: 20px;
   }
 
@@ -79,7 +84,7 @@
   }
 
   .sectionLoc{
-    background-color: var(--cor-fundo-verde);
+    background-color: var(--cor-fundo-verde-claro);
   }
 
   section {
